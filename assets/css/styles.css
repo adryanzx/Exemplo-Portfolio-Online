@@ -7,7 +7,7 @@
   --hue-color: 224;
   --first-color: hsl(var(--hue-color), 89%, 60%);
   --second-color: hsl(var(--hue-color), 56%, 12%);
-  /*===== ipografia =====*/
+  /*===== tipografia =====*/
   --body-font: "Poppins", sans-serif;
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
@@ -44,11 +44,12 @@ body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  color: var(--second-color);
+  background-color: #000;
 }
 
 h1, h2, p {
   margin: 0;
+  color: #fff;
 }
 
 ul {
@@ -199,7 +200,7 @@ img {
   width: max-content;
   margin-bottom: var(--mb-2);
   font-size: 1.5rem;
-  color: var(--second-color);
+  color: #fff;
 }
 .home__social-icon:hover {
   color: var(--first-color);
@@ -228,7 +229,7 @@ img {
   transition: 0.3s;
 }
 .button:hover {
-  box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 10px 36px rgba(255, 255, 255, 0.336);
 }
 
 /* ===== SOBRE =====*/
